@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: AI content
- * Description: Αυτόματη δημιουργία άρθρων και εικόνων με χρήση Google Gemini API, SEO optimization και Schema markup.
+ * Description: Automatic creation of articles and images using Google Gemini API, SEO optimization and Schema markup.
  * Version: 1.0.0
  * Author: Texnologia
  * Text Domain: https://texnologia.net
@@ -505,3 +505,4 @@ class AutoblogAI_Gemini_Client {
 register_activation_hook(__FILE__, array('AutoblogAI', 'activate'));
 
 add_action('plugins_loaded', array('AutoblogAI', 'get_instance'));
+
