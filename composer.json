@@ -1,0 +1,28 @@
+{
+  "name": "autoblogai/autoblogai",
+  "description": "AI-powered WordPress plugin for automatic article generation using Google Gemini",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Texnologia",
+      "email": "info@texnologia.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "AutoblogAI\\": "includes/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "test-verbose": "phpunit --verbose",
+    "test-coverage": "phpunit --coverage-html coverage"
+  }
+}
